@@ -14,6 +14,7 @@
 .slides1{display:none;}
 .header{ height:100px;
          width:100%;
+		 display: flex;
 		 box-shadow: 10px 10px 5px grey;
 		 background: linear-gradient(to bottom, #ffead9, #ffffff);
 }
@@ -21,12 +22,12 @@
      width:140px;
 	 margin-top:5px;
 	 margin-left:120px;
-	 float:left;
+	 
 }
 .h2{ height:100px;
      width:600px;
-	 margin-left:380px;
-	 float:left;
+	 margin-left:auto;
+	 
 	 background: linear-gradient(to bottom, #ffead9, #ffffff);
 }
 a:link{text-decoration:none;}
@@ -39,6 +40,15 @@ a:link{text-decoration:none;}
 		   font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
 }
 .h2 ul li a:hover{color:#d6a050;}
+
+@media only screen and (max-width: 850px){
+   .h2{
+            font-size:0.5em;
+            padding: 0;	
+			
+   }
+
+}
 .home{ height:600px;
        width:100%;
 }
